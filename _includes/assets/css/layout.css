@@ -361,10 +361,12 @@ footer {
     color: var(--c-lightest);
   }
 
-  a:visited {
+
+}
+
+footer a:visited {
     color: var(--c-lightest);
   }
-}
 
 .page-title {
   margin-block-start: var(--s4);
