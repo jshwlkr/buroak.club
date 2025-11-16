@@ -4,6 +4,7 @@ layout: "base"
 title: "home"
 eleventyNavigation:
   key: "Home"
+  order: 1
 class: "home"
 ---
 <main class="stack">
@@ -19,19 +20,19 @@ class: "home"
     
       <ul class="sans-serif">
         <li>
-          <a href="{{ ring.url }}prev/">
+          <a href="{{ ring.url }}/prev/">
             {% icon "feather:arrow-left" %}
             <span>Previous url</span>
           </a>
         </li>
         <li>
-          <a href="{{ ring.url }}random/">
+          <a href="{{ ring.url }}/random/">
             {% icon "feather:shuffle" %}
             <span>Random url</span>
           </a>
         </li>
         <li>
-          <a href="{{ ring.url }}next/">
+          <a href="{{ ring.url }}/next/">
             {% icon "feather:arrow-right" %}
             <span>Next url</span>
           </a>
@@ -113,7 +114,7 @@ class: "home"
 
     <div>
       <h2>Join this webring</h2>
-      <p>For the moment you may contact the admin on the fediverse via <a href="https://a2mi.social/@jshwlkr">@jshwlkr@a2mi.social</a> or via email at <a href="mailto:join@buroak.club">join@burkoak.club</a>.</p>
+      <p>For the moment you may contact the admin on the fediverse via <a href="https://a2mi.social/@jshwlkr">@jshwlkr@a2mi.social</a> or via email at <a href="mailto:join@buroak.club">join@buroak.club</a>.</p>
       <p>Your submission can include the following:</p>
       <ul>
         <li>Name or site title (required)</li>
@@ -125,7 +126,7 @@ class: "home"
         <li>BlueSky profile URL</li>
         <li>Mastodon profile URL</li>
        </ul>
-       <p>Currently the webring only supports a single URL for any entry. (You won't be able to submit multiple feeds or multiple Mastodon profiles.)</p>
+       <p>Currently the webring only supports a single URL for any entry. (You won't be able to submit multiple feeds or multiple Mastodon profiles, for example.)</p>
     </div>
   </div>
 

@@ -1,5 +1,6 @@
 <footer>
-<!--
+    <div class="status">Last update: {{ ring.timestamp.formatted }}</div>
+
     {% assign pages = collections.all | eleventyNavigation %}
     <ul id="site-nav" class="footer-nav">
         {% for entry in pages %}
@@ -8,5 +9,4 @@
         </li>
         {% endfor %}
     </ul>
--->
 </footer>
