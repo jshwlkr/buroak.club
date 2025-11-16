@@ -1,15 +1,4 @@
 
     [
-        {
-            "title": "An Example User",
-            "url": "https://jshwlkr.info/",
-            "feed": "https://jshwlkr.info/feed.xml",
-            "github": "https://github.com/jshwlkr/"
-        },
-        {
-            "title": "Another Example User",
-            "url": "https://jshwlkr.info/2/",
-            "feed": "https://jshwlkr.info/feed.xml",
-            "mastodon": "https://ansible.jshwlkr.info/@jshwlkr"
-        }
+
     ]

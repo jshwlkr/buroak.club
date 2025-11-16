@@ -7,9 +7,9 @@ const buildTime = new Intl.DateTimeFormat("en-US", {
 }).format(now);
 
 export default {
-    title: "Example Webring",
-    description: "Example webring",
-    url: "https://edgewebring.netlify.app/",
+    title: "BurOak.Club",
+    description: "A webring for Ann Arbor, Ypsilanti, and other parts near or far.",
+    url: "https://buroak.club",
     timestamp: {
         raw: now.toISOString(),
         formatted: `${buildTime} ${timeZone}`,

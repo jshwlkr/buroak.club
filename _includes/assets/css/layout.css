@@ -12,11 +12,17 @@
   --s4: calc(var(--s3) * var(--ratio));
   --s5: calc(var(--s4) * var(--ratio));
 
-  --c1: var(--color-indigo-6);
-  --c2: var(--color-indigo-2);
-  --c3: var(--color-indigo-3);
-  --c4: var(--color-violet-3);
-  --c-lightest: var(--color-indigo-1);
+  --c1: var(--color-emerald-4);
+  /* main */
+
+  --c2: var(--color-aquamarine-1);
+  /* text and bg */
+
+  --c3: var(--color-emerald-4);
+  --c4: var(--color-aquamarine-3);
+
+  --c-lightest: var(--color-amber-1);
+  /* offset bg */
 
 }
 
@@ -186,11 +192,11 @@ h3 {
 
 .title {
   line-height: 1.1;
-  margin: 0;
+  margin: var(--s2);
 }
 
 .subtitle {
-  margin-block-start: var(--s-1);
+  margin: var(--s2) var(--s3) var(--s4) var(--s3);
   font-size: clamp(var(--s0), 2.5vw, var(--s2));
 }
 
@@ -351,3 +357,14 @@ footer {
   }
 }
 
+.page-title {
+  margin-block-start: var(--s4);
+      margin-left: var(--s4);
+  margin-right: var(--s4);
+}
+
+.page-subtitle {
+   margin-block-start: 0;
+         margin-left: var(--s4);
+  margin-right: var(--s4);
+}

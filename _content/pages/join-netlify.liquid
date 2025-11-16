@@ -1,0 +1,30 @@
+---
+permalink: /join/
+layout: "page"
+title: "join"
+eleventyNavigation:
+  key: "join"
+class: "join"
+---
+
+<form name="join"  method="POST" netlify>
+  <div>
+    <div>
+      <label class="" for="name">Name (required)</label>
+    </div>
+    <div class="">
+      <input class="" id="name" type="text">
+    </div>
+  </div>
+
+  <p>
+    <label>Website URL (required): <input type="url" name="website" required /></label>
+  </p>
+    <p>
+    <label>RSS URL: <input type="url" name="rss" /></label>
+  </p>
+
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>

@@ -2,8 +2,9 @@
 <html lang="{{ ring.locale }}">
     {% include 'partials/head' %}
 <body class="{{ class | join: " " }} page">
-    <main>
-        <h1>{{ title }}</h1>
+    <main class="stack">
+        <h1 class="page-title">{{ ring.title }}</h1>
+        <h2 class="page-subtitle">{{ title }}</h2>
         {{ content }}
     </main>
     {% include 'partials/footer' %}
